@@ -73,7 +73,7 @@ func calcInteger(app *App) {
 	case "+":
 		app.resultInt = app.num1 + app.num2
 	case "-":
-		app.resultInt = app.num1 + app.num2
+		app.resultInt = app.num1 - app.num2
 	case "*":
 		app.resultInt = app.num1 * app.num2
 	case "/":
@@ -93,7 +93,7 @@ func calcFloat(app *App) {
 	case "+":
 		app.resultFloat = app.float1 + app.float2
 	case "-":
-		app.resultFloat = app.float1 + app.float2
+		app.resultFloat = app.float1 - app.float2
 	case "*":
 		app.resultFloat = app.float1 * app.float2
 	case "/":
